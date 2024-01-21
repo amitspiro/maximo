@@ -1,0 +1,102 @@
+.container {
+    gap: 10px;
+}
+
+.flag {
+    height: 200px;
+    width: 400px;
+    gap: 10px;
+    margin: 10px;
+}
+
+.swiss {
+    background-color: red;
+}
+
+.israel {
+    background-color: aliceblue;
+}
+
+.palau {
+    background-color: rgb(78, 123, 212);
+}
+
+.box-container {
+    height: 80px;
+    width: 80px;
+    /* border-style: solid; */
+    position: relative;
+    top: calc(50% - 40px);
+    left: calc(50% - 40px);
+}
+.box{
+    height: 40px;
+    width: 40px;
+}
+.box5 {
+    /* height: 40px;
+    width: 40px; */
+    background-color: beige;
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(50% - 20px);
+}
+.box1{
+    /* height: 90px;
+    width: 40px; */
+    background-color: beige;
+    position: absolute; 
+   top: calc(50% - 60px);
+    left: calc(50% - 20px);
+} 
+.box2{
+    /* height: 40px;
+    width: 90px; */
+    background-color: beige;
+    position: absolute; 
+   top: calc(50% - 20px);
+    left: calc(50% - 60px);
+}
+.box3{
+    /* height: 40px;
+    width: 0px; */
+    background-color: beige;
+    position: absolute; 
+   bottom: calc(50% - 60px);
+    left: calc(50% - 20px);
+}
+.box4{
+    /* height: 40px;
+     width: 40px;  */
+    background-color: beige;
+    position: absolute; 
+   top: calc(50% - 20px);
+    right: calc(50% - 60px);
+}
+
+.line{
+    background-color: blue;
+    width: 400px;
+    height: 25px;
+}
+
+.lineUp{
+    margin-top: 20px;
+}
+.lineBtm{
+    position: absolute; 
+
+    top: calc(50% - 20px);
+}
+
+
+.circle{
+    width: 150px;
+    height: 150px;
+    /* position: fixed; */
+    border-radius: 80px;
+    background-color: rgb(246, 214, 72);
+    bottom: calc(50% );
+
+    
+}
